@@ -1,0 +1,59 @@
+body {
+    background: rgb(63,251,220);
+    background: radial-gradient(circle, rgba(63,251,220,1) 55%, rgba(70,104,252,1) 83%);
+
+}
+
+.nav_wrapper {
+    width: 100%;
+    
+}
+
+.topnav {
+    background-color: rgb(184, 184, 184);
+    overflow: auto;
+    width: 100%;
+
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align:center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 14px;
+    width: 228px;
+    
+}
+
+.topnav a:hover {
+    background-color: white;
+}
+
+.aboutMeContainer {
+display: flex;
+}
+
+.aboutMeContainer p {
+    width: 70%;
+    margin-right: var(--spacing-3);
+}
+
+.aboutMeContainer img {
+    width: 300px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    height: 250px;
+    
+}
+
+.image-container {
+    height: auto;
+}
+
+.image-container img {
+    height: 50px;
+    
+}
+
