@@ -4,23 +4,32 @@ body {
 
 }
 
-.nav_wrapper {
-    width: 100%;
-    
-}
-
 .topnav {
-    background-color: rgb(184, 184, 184);
+    list-style: none;
+    font-weight: bold;
     overflow: auto;
     width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 38px;
+}
+.topnav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+}
 
+.topnav li {
+    margin: 0px;
+    display: inline-flex;
 }
 
 .topnav a {
     float: left;
+    background-color: rgb(184, 184, 184);
     color: black;
-    text-align:center;
-    padding: 14px;
+    padding: 10px;
     text-decoration: none;
     font-size: 14px;
     width: 228px;
@@ -33,6 +42,7 @@ body {
 
 .aboutMeContainer {
 display: flex;
+width: 75%
 }
 
 .aboutMeContainer p {
@@ -54,6 +64,7 @@ display: flex;
 
 .image-container img {
     height: 50px;
+    margin: 15px;
     
 }
 
